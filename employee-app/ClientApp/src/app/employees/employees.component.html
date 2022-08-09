@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row mt-3">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Employee Number</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let employee of employees; let i = index" 
+                    [ngClass]="{
+                    'regular-font': employee.Status.toLowerCase() == 'regular',
+                    'contractor-font': employee.Status.toLowerCase() == 'contractor'
+                    }">
+                    <td>{{employee.Number}}</td>
+                    <td>{{employee.FirstName}}</td>
+                    <td>{{employee.LastName}}</td>
+                    <td>{{employee.Status}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

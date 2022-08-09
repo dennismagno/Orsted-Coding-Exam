@@ -1,0 +1,130 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "employee-app/1.0.0": {
+        "dependencies": {
+          "ExcelDataReader": "3.6.0",
+          "Microsoft.AspNetCore.SpaProxy": "6.0.7",
+          "Microsoft.AspNetCore.SpaServices.Extensions": "6.0.8"
+        },
+        "runtime": {
+          "employee-app.dll": {}
+        }
+      },
+      "ExcelDataReader/3.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/ExcelDataReader.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SpaProxy/6.0.7": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.SpaProxy.dll": {
+            "assemblyVersion": "6.0.7.0",
+            "fileVersion": "6.0.722.32205"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SpaServices.Extensions/6.0.8": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Physical": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.SpaServices.Extensions.dll": {
+            "assemblyVersion": "6.0.8.0",
+            "fileVersion": "6.0.822.36316"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {},
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {}
+    }
+  },
+  "libraries": {
+    "employee-app/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExcelDataReader/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eXyxTwG7EEWpgQX3juZ2KcndqTqm/ydx9GXS2lUiMJU54U4h5eXdygRtVgINv0t60ezPWEb+lL7uM7Q+wm5BBA==",
+      "path": "exceldatareader/3.6.0",
+      "hashPath": "exceldatareader.3.6.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SpaProxy/6.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hxtk0Ya7TF6N9fxTkSontfdQgBz1N0wjOBf0gqPahWYFiZI7GCu0bsK2rchFdZJ4yYACzqBLgSODX1pTWzQYUg==",
+      "path": "microsoft.aspnetcore.spaproxy/6.0.7",
+      "hashPath": "microsoft.aspnetcore.spaproxy.6.0.7.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SpaServices.Extensions/6.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMPs6U5nxjPWPNzZXoVwOxhvR5Vkm9tYKx5B1WxKlN2pgiZ+RSWj67vYv87GndOzZ3UD2tK193PHI6T+agHTEA==",
+      "path": "microsoft.aspnetcore.spaservices.extensions/6.0.8",
+      "hashPath": "microsoft.aspnetcore.spaservices.extensions.6.0.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0pd4/fho0gC12rQswaGQxbU34jOS1TPS8lZPpkFCH68ppQjHNHYle9iRuHeev1LhrJ94YPvzcRd8UmIuFk23Qw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QvkL7l0nM8udt3gfyu0Vw8bbCXblxaKOl7c2oBfgGy4LCURRaL9XWZX1FWJrQc43oMokVneVxH38iz+bY1sbhg==",
+      "path": "microsoft.extensions.fileproviders.physical/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ip8jnL1aPiaPeKINCqaTEbvBFDmVx9dXQEBZ2HOBRXPD1eabGNqP/bKlsIcp7U2lGxiXd5xIhoFcmY8nM4Hdiw==",
+      "path": "microsoft.extensions.filesystemglobbing/6.0.0",
+      "hashPath": "microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+<div *ngIf="errorMsg" class="alert alert-danger" role="alert">{{errorMsg}}</div>
+<app-file-upload (newFileUpload)="uploadFile($event)"></app-file-upload>
+<app-employees [employees]="employees"></app-employees>

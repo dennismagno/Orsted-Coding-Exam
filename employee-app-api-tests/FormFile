@@ -1,0 +1,32 @@
+namespace FileUploadControllerTests;
+
+public class FormFile: IFormFile
+    {
+        public string ContentType => throw new NotImplementedException();
+ 
+        public string ContentDisposition => throw new NotImplementedException();
+ 
+        public IHeaderDictionary Headers => throw new NotImplementedException();
+ 
+        public long Length { get; set; }
+ 
+        public string Name { get; }
+ 
+        public string FileName { get; set; }
+ 
+        public void CopyTo(Stream target)
+        {
+            throw new NotImplementedException();
+        }
+ 
+        public Task CopyToAsync(Stream target, 
+            CancellationToken cancellationToken = default(CancellationToken))
+        {
+            return Task.FromResult(1);
+        }
+ 
+        public Stream OpenReadStream()
+        {
+            throw new NotImplementedException();
+        }
+    }
