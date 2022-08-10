@@ -18,7 +18,7 @@ builder.Services.AddTransient<IFileUploadService, FileUploadService>();
 
 builder.Services.AddSpaStaticFiles(configuration =>
         {
-            configuration.RootPath = "ClientApp/dist";
+            configuration.RootPath = "wwwroot";
         });
 
 var app = builder.Build();

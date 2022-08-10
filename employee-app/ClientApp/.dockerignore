@@ -1,0 +1,30 @@
+# editor configs
+Properties
+.vscode
+.editorconfig
+.prettierrc
+.styleintrc.json
+
+# code binaries
+bin/
+obj/
+node_modules/
+.angular/cache
+nmp-debug.log
+log
+
+# docs
+*.md
+*.txt
+LICENSE
+
+# docker
+.docker
+.dockerignore
+Dockerfile
+*/docker-compose*
+
+# repositories
+.git
+.hg
+.svn
