@@ -1,8 +1,6 @@
 import { Subject } from 'rxjs';  
 import { takeUntil } from 'rxjs/operators'; 
-import { catchError, map } from 'rxjs/operators';  
 import { Component, OnDestroy } from '@angular/core';
-import { HttpEventType, HttpErrorResponse } from '@angular/common/http';
 import { AppService } from '../app.service';
 
 @Component({

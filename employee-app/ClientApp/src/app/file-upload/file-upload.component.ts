@@ -8,25 +8,20 @@ import { Component, OnInit, Output, EventEmitter, ViewChild, ElementRef } from '
 export class FileUploadComponent implements OnInit {
   @ViewChild("fileData", {static: false}) fileData: ElementRef | undefined;
   constructor() { }
-
-  @Output() newFileUpload = new EventEmitter<string>();
+  
+  @Output() newFileUpload : EventEmitter<any> = new EventEmitter<any>();
 
   ngOnInit(): void {
   }
 
   onFileSelected(event: any) {
-    const file:File = event.target.files[0];
+    const file = event.target.files[0];
     
     // Clear the input
     event.target.value = null;
 
     if (file) {
-      this.uploadFile(file);
+      this.newFileUpload.emit(file);
     }
   }
-
-  uploadFile(value: any) {
-    this.newFileUpload.emit(value);
-  }
-
 }
