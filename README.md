@@ -5,10 +5,13 @@
 
 ### Built With
 
+* [![NodeJS][NodeJS]][NodeJS-url]
 * [![.Net][.Net]][.Net-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
+[NodeJS]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
+[NodeJS-url]: https://nodejs.org/en/download/
 [.Net]: https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white
 [.Net-url]: https://dotnet.microsoft.com/en-us/download
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
@@ -25,11 +28,7 @@
 2. Change directory:
 
    cd orsted-coding-exam/employee-app
-
-3. Restore packages:
-
-   dotnet restore
    
-4. Run application:
+3. Run application:
 
    dotnet run
